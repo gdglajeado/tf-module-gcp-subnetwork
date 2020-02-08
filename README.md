@@ -11,7 +11,7 @@ Esta definição encontra-se no arquivo `versions.tf`
 ## Como utilizar
 
 ```hcl
-module "instance" {
+module "subnetwork" {
   source = "git@github.com/gdglajeado/tf-module-gcp-subnetwork.git?ref=v1.0"
 
   name                     = "rundeck"
